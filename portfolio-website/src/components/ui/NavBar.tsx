@@ -1,6 +1,6 @@
-import {Flex, HStack, Button, Text, DownloadTrigger} from '@chakra-ui/react'
+import {Flex, HStack, Button, Text, DownloadTrigger, Link} from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom'
-import pdf from '@/assets/pdfs/CV_Sean.pdf'; 
+import cv from '../../assets/pdfs/cv.pdf'; 
 export default function NavBar(){
     const navigate = useNavigate()
     return <Flex
@@ -33,15 +33,19 @@ export default function NavBar(){
             >
                 Home
             </Button>
-            <Button
+            <Link
                 textStyle="bodyRegular.base"
                 bg="greyscale.black"
                 color="greyscale.text.negative"
                 rounded="md"
                 p="l"
+                as="a"
+                target="_blank"
+                rel="noopener noreferrer"
+                href={cv}
             >
                 Resume
-            </Button>
+            </Link>
         </HStack>
     </Flex>
 }
