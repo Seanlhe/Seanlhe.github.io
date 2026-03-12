@@ -36,7 +36,7 @@ function IntroductionSection() {
         </Text>
     </VStack>
     <Image 
-        src="/src/assets/images/optistaff_landing.svg" 
+        src="/assets/images/optistaff_landing.svg" 
         shadow="s"
         rounded="l"
     />
@@ -124,7 +124,7 @@ function ChallengesSection() {
             mt="l"
         >
             <Image
-                src="/src/assets/images/telegram_image.svg"
+                src="/assets/images/telegram_image.svg"
                 rounded="l"
                 w="24rem"
             />
@@ -193,17 +193,17 @@ function ProcessSection() {
         {
             title: "Key Use Cases",
             body: "We began by defining and mapping the core features for our minimum viable product (MVP) using use case diagrams, deliberately prioritising speed to market to enable early user testing and rapid feedback.  Employees could set job preferences and availability, and manage or cancel assigned shifts, while employers were able to create and manage job listings and rate workers upon assignment completion. ",
-            imageURL: "/src/assets/images/use_case_diagram.svg"
+            imageURL: "/assets/images/use_case_diagram.svg"
         },
         {
             title: "Sequence Diagrams",
             body: "For each core feature, we developed sequence diagrams to map interactions across system components and define behaviour across different states, including error handling. This process aligned team expectations, clarified architectural decisions, and provided a clear foundation for unit, integration, and end-to-end testing",
-            imageURL: "/src/assets/images/seq_diagram.svg"
+            imageURL: "/assets/images/seq_diagram.svg"
         },
         {
             title: "System Diagrams",
             body: "We modelled the relevant attributes, methods, relationships and multiplicities of each entity within the system using a class diagram. This ensured data integrity, separation of responsibilities, and aligned backend development with business logic.",
-            imageURL: "/src/assets/images/system_diagram.svg"
+            imageURL: "/assets/images/system_diagram.svg"
         }
     ]
     return (

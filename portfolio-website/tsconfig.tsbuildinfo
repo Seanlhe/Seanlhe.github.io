@@ -1,0 +1,1 @@
+{"root":["./src/app/app.tsx","./src/app/main.tsx","./src/app/provider.tsx","./src/components/ui/navbar.tsx","./src/components/ui/pagelayout.tsx","./src/components/ui/color-mode.tsx","./src/configs/chakra-config.ts","./src/pages/centsiblepage.tsx","./src/pages/homehelpypage.tsx","./src/pages/optistaffpage.tsx","./src/pages/homepage.tsx"],"version":"5.9.3"}

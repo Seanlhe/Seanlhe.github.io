@@ -26,7 +26,7 @@ function IntroductionSection() {
           </Text>
         </VStack>
         <Image 
-          src="/src/assets/images/centsible_dashboard.svg" 
+          src="/assets/images/centsible_dashboard.svg" 
           shadow="s"
           rounded="l"
         />
@@ -37,14 +37,14 @@ function IntroductionSection() {
 function BackgroundSection() {
     const audiences: AudienceProps[]= [
         {
-            imageURL:"/src/assets/images/mum_avatar.svg",
+            imageURL:"/assets/images/mum_avatar.svg",
             name:"Natasha, 30",
             description: ["Mother of two",
             "Sole breadwinner of the family",
             "Manages household finance"]
         },
         {
-            imageURL:"/src/assets/images/son_avatar.svg",
+            imageURL:"/assets/images/son_avatar.svg",
             name:"Kevin, 15",
             description: [
             "Secondary 3 student",
@@ -53,7 +53,7 @@ function BackgroundSection() {
             ]
         },
         {
-            imageURL:"/src/assets/images/grandma_avatar.svg",
+            imageURL:"/assets/images/grandma_avatar.svg",
             name:"Susan, 68",
             description: [
             "Has recurring medical expenses and bills",
@@ -356,7 +356,7 @@ function PagesSection() {
     return (
       <Flex w="100vw" flexDir="column" alignItems="center" gap="2xl">
         <Box w="100vw" px="5xl" py="l" bg="greyscale.surface.default">
-          <Image w="full" src="/src/assets/images/centsible_pages.svg" />
+          <Image w="full" src="/assets/images/centsible_pages.svg" />
         </Box>
         <VStack>
           <Text textStyle="bodyLarge.bold" color="greyscale.text.title">

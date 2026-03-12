@@ -99,7 +99,7 @@ function ContactDetails(){
                     as="a"
                     onClick={()=>{window.location.href="https://www.linkedin.com/in/sean-leng-ab44322b1/"}}
                 >
-                    <Image src="/src/assets/icons/linkedin.svg"/>
+                    <Image src="/assets/icons/linkedin.svg"/>
                 </IconButton>
             </List.Item>
             <List.Item>
@@ -112,7 +112,7 @@ function ContactDetails(){
                     borderColor="greyscale.border.default"
                     onClick={()=>{window.location.href="https://github.com/Seanlhe"}}
                 >
-                    <Image src="/src/assets/icons/githubIcon.svg"/>
+                    <Image src="/assets/icons/githubIcon.svg"/>
                 </IconButton>
             </List.Item>
         </List.Root>
@@ -150,7 +150,7 @@ function ProjectsSection(){
                     w="full"
                     rounded="l"
                     mb="l"
-                    src="/src/assets/images/homehelpy_mockup.svg"
+                    src="/assets/images/homehelpy_mockup.svg"
                 />
                 <Text
                     textStyle="h6.bold"
@@ -180,7 +180,7 @@ function ProjectsSection(){
                     w="full"
                     rounded="l"
                     mb="l"
-                    src="/src/assets/images/centsible_mockup.svg"
+                    src="/assets/images/centsible_mockup.svg"
                 />
                 <Text
                     textStyle="h6.bold"
@@ -210,7 +210,7 @@ function ProjectsSection(){
                     w="full"
                     rounded="l"
                     mb="l"
-                    src="/src/assets/images/optistaff_mockup.svg"
+                    src="/assets/images/optistaff_mockup.svg"
                 />
                 <Text
                     textStyle="h6.bold"
@@ -280,7 +280,7 @@ function AboutSection(){
                 h="38rem"
                 rounded="l"
                 bg="greyscale.black"
-                src="/src/assets/images/profile_pic.svg"
+                src="/assets/images/profile_pic.svg"
             />
             <VStack
                 w="31rem"

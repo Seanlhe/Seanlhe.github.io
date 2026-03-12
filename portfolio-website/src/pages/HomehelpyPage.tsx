@@ -54,7 +54,7 @@ function IntroductionSection() {
           </Link>
       </VStack>
       <Image 
-        src="/src/assets/images/hhlanding.png" 
+        src="/assets/images/hhlanding.png" 
         shadow="s"
         rounded="l"
       />
@@ -210,7 +210,7 @@ function PagesSection() {
   return (
     <Flex w="100vw" flexDir="column" alignItems="center" gap="2xl">
       <Box w="100vw" px="5xl" py="l" bg="greyscale.surface.default">
-        <Image w="full" src="/src/assets/images/hhpages.svg" />
+        <Image w="full" src="/assets/images/hhpages.svg" />
       </Box>
       <VStack>
         <Text textStyle="bodyLarge.bold" color="greyscale.text.title">
