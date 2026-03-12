@@ -271,7 +271,7 @@ function PagesSection() {
 return (
     <Flex w="100vw" flexDir="column" alignItems="center" gap="2xl">
     <Box w="100vw" px="5xl" py="l" bg="greyscale.surface.default">
-        <Image w="full" src="/src/assets/images/optistaffpages.svg" />
+        <Image w="full" src="/assets/images/optistaffpages.svg" />
     </Box>
     <VStack>
         <Text textStyle="bodyLarge.bold" color="greyscale.text.title">
