@@ -8,6 +8,8 @@ import {
   HStack,
   Circle,
   Box,
+  Button,
+  Link,
 } from "@chakra-ui/react";
 
 export default function HomehelpyPage() {
@@ -38,6 +40,18 @@ function IntroductionSection() {
           booking, streamlined operations, and effective capture of
           marketing-driven traffic.
         </Text>
+        <Link
+              textStyle="bodyRegular.base"
+              bg="greyscale.black"
+              color="greyscale.text.negative"
+              rounded="md"
+              p="l"
+              mt="md"
+              href="https://www.homehelpy.com/"
+              as="a"
+          >
+              Live Site
+          </Link>
       </VStack>
       <Image 
         src="/src/assets/images/hhlanding.png" 

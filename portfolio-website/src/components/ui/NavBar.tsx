@@ -33,31 +33,14 @@ export default function NavBar(){
             >
                 Home
             </Button>
-            <DownloadTrigger
-                data={pdf}
-                fileName="sample.txt"
-                mimeType="text/plain"
-                asChild
-            >
-                <Button
-                    textStyle="bodyRegular.base"
-                    bg="none"
-                    color="greyscale.text.title"
-                    rounded="md"
-                    p="l"
-                >
-                    Resume
-                </Button>
-            </DownloadTrigger>
             <Button
                 textStyle="bodyRegular.base"
                 bg="greyscale.black"
                 color="greyscale.text.negative"
                 rounded="md"
                 p="l"
-                onClick={()=>navigate("/")}
             >
-                Contact Me
+                Resume
             </Button>
         </HStack>
     </Flex>

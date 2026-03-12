@@ -110,7 +110,7 @@ function ContactDetails(){
                     bg="none"
                     border="1px solid"
                     borderColor="greyscale.border.default"
-                    onClick={()=>{window.location.href="https://github.com/Seanlhe/Seanlhe.github.io"}}
+                    onClick={()=>{window.location.href="https://github.com/Seanlhe"}}
                 >
                     <Image src="/src/assets/icons/githubIcon.svg"/>
                 </IconButton>

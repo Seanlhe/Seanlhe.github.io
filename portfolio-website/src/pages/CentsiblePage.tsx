@@ -37,14 +37,14 @@ function IntroductionSection() {
 function BackgroundSection() {
     const audiences: AudienceProps[]= [
         {
-            imageURL:"",
+            imageURL:"/src/assets/images/mum_avatar.svg",
             name:"Natasha, 30",
             description: ["Mother of two",
             "Sole breadwinner of the family",
             "Manages household finance"]
         },
         {
-            imageURL:"",
+            imageURL:"/src/assets/images/son_avatar.svg",
             name:"Kevin, 15",
             description: [
             "Secondary 3 student",
@@ -53,7 +53,7 @@ function BackgroundSection() {
             ]
         },
         {
-            imageURL:"",
+            imageURL:"/src/assets/images/grandma_avatar.svg",
             name:"Susan, 68",
             description: [
             "Has recurring medical expenses and bills",
@@ -156,6 +156,7 @@ function Audience({imageURL, name, description}: AudienceProps){
             h="10rem"
             p="l"
             rounded="full"
+            objectFit="fit"
             border="1px solid"
             borderColor="greyscale.border.default"
         />
