@@ -1,6 +1,6 @@
 import {Flex, HStack, Button, Text, Link} from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom'
-// import cv from '/assets/pdfs/cv.pdf'; 
+import cv from '/assets/pdfs/cv.pdf'; 
 export default function NavBar(){
     const navigate = useNavigate()
     return <Flex
@@ -42,7 +42,7 @@ export default function NavBar(){
                 as="a"
                 target="_blank"
                 rel="noopener noreferrer"
-                // href={cv}
+                href={cv}
             >
                 Resume
             </Link>
